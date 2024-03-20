@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.bg{
+    width: 100%;
+    height: 95vh;
+    background-image: url(assests/images/bg.jpg);
+    /* opacity: 0.44; */
+}
+.logo img{
+    width: 148px;
+    height: 40px;
+}
+nav select{
+    width: 126.4px;
+    height: 38px;
+    padding: 0px 26px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+    opacity: 0.80;
+    
+}
+.signin{
+    width: 76.9px;
+    height: 39px;
+    background-color: rgb(229,9,20);
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.signin:hover{
+    background-color: rgb(171, 13, 21);
+    cursor: pointer;
+}
+.nav nav{
+    display: flex;
+    width: 1266px;
+    height: 92px;
+    justify-content: space-between;
+    padding: 24px 48px;
+    margin: 0px 126.6px;
+}
+nav .lang{
+    display: flex;
+    padding: 0px 150px;
+    gap: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+}
+.first{
+    color: white;
+    font-size: 48px;
+    padding: 8px;
+    font-weight: bolder;
+    font-family: poppins;
+}
+.second{
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+    font-family: poppins;
+}
+.third{
+    color: white;
+    font-size: 18px;
+    font-family: poppins;
+}
+.fourth{
+    color: white;
+    padding: 12px;
+    font-family: poppins;
+}
+.fourth .input input{
+    width: 370px;
+    height: 53px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: poppins;
+    background-color: black;
+    opacity: 0.66;
+    color: white;
+    border: 0.5px solid white;
+}
+.fourth .btn button{
+    width: 203px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 23px;
+    font-family: poppins;
+    border: 0.5px solid black;
+}
+.fourth .btn button:hover{
+    background-color: rgb(171, 13, 21);
+    cursor: pointer;
+}
+.separation{
+    height: 8px;
+    background-color: rgb(50, 47, 47);
+}
+.one{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textone :nth-child(1){
+    color: white;
+    font-size: 65px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.textone :nth-child(2){
+    color: white;
+    font-size: 25px;
+    max-width: 40vw;
+    font-family: sans-serif;
+}
+.tv{
+    position: relative;
+}
+.tv video{
+    position: absolute;
+    top: 97px;
+    right: 85px;
+    z-index: -10;
+}
+.bottom{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}
+.bottom .faq{
+    color: white;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.bottom .questions{
+    color: white;
+    width: 70vw;
+    height: 50px;
+    margin-top: 20px;
+}
+.bottom .questions div{
+    background-color: rgb(59, 53, 53);
+    height: 50px;
+    padding-top: 26px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;                                                                                  
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .questions div:hover{
+    background-color: rgb(73, 67, 67);
+    cursor: pointer;
+}
+.questions div span img{
+    color: white;
+}
+.main2{
+    margin-top: 420px;
+}
+.final {
+    color: white;
+    font-family: sans-serif;
+    width: 70vw;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.final .call{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 810px;
+    gap: 10px;
+}
+.final .call a{
+    color: white;
+}
+.final .block .last1 div a{
+    color: white;
+}
+.final .block .last2 div a{
+    color: white;
+}
+.final .block .last3 div a{
+    color: white;
+}
+.final .block .last4 div a{
+    color: white;
+}
+.final .block{
+    gap: 155px;
+    padding-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.final .block div{
+    padding-top: 20px;
+}
